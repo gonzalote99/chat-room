@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>chat room</title>
+</head>
+<body>
+  <div id="header">
+    <h1>chat room</h1>
+  </div>
+  <div id="body">
+   <script src="script.js"></script>
+   <div id="chatArea">
+   
+   </div>
+   <div id="inputArea">
+     <textarea id="inputArea__name" maxlength="40" spellcheck="false" onkeydown="inputAreaNameKeyPressed();">guest</textarea> 
+     <textarea id="inputArea__message" maxlength="400" spellcheck="false" onkeydown="inputAreaMessageKeyPressed();"></textarea> 
+     <button id="inputArea__sendButton">send</button>
+   </div>
+  </div>
+</body>
+</html>
